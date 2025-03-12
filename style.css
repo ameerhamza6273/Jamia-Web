@@ -75,13 +75,16 @@ html {
     /* background-color: aquamarine; */
     min-height: 550px;
     padding: 130px 100px;
-    background: linear-gradient(to right, rgba(12, 91, 86, 0.336), rgba(12, 91, 86, 0.267)) center / cover, url(images/site-Prophets-Mosque-Medina-Saudi-Arabia-Mecca.webp);
+    background: linear-gradient(to right, rgba(12, 91, 86, 0.507), rgba(12, 91, 86, 0.507)) center / cover, url(images/slide-img-2.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
     background-color: grey;
     background-blend-mode: multiply;
     text-align: center;
+}
+.carousel-item:nth-child(1){
+    background: linear-gradient(to right, rgba(12, 91, 86, 0.493), rgba(12, 91, 86, 0.521)) center / cover, url(images/slide-img-1.png);
 }
 .carousel-item h1{
     font-size: 75px;
@@ -97,7 +100,7 @@ html {
     margin: 0 auto;
     color: #FFF;
 }
-.carousel-item button{
+.carousel-item a{
     border: 3px solid #FFF;
     border-radius: 50px;
     padding: 12px 35px;
@@ -156,12 +159,11 @@ html {
     font-weight: 500;
     color: #FFF;
     background-color: #0c5b56;
-    margin-top: 40px !important;
-    margin: 0 auto;
+    margin: 40px auto 0 auto;
     display: block;
     max-width: 225px;
-
 }
+.nav-donate-btn a:hover,
 .form-btn,
 .about-home a:hover,
 .department a:hover{
@@ -172,13 +174,9 @@ html {
 
 /* about us style is here */
 .about-main{
-    min-height: 300px;
-    padding: 80px 100px;
-    background:linear-gradient(#263538a6, #2635389c), url(images/site-Prophets-Mosque-Medina-Saudi-Arabia-Mecca.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    background-color: grey;
+    min-height: 250px;
+    padding: 120px 10px;
+    background: #0c5b56;
     background-blend-mode: multiply;
     text-align: center;
 }
@@ -218,7 +216,7 @@ html {
 }
 
 .about-home p img{
-    filter: hue-rotate(-208deg);
+    filter: hue-rotate(-183deg);
     opacity: 0.8;
 }
 .about-home .text{
@@ -227,6 +225,10 @@ html {
     font-size: 14px;
     line-height: 23px;
 }
+.nav-donate-btn a{
+    margin-top: 0 !important;
+}
+.nav-donate-btn a,
 .form-btn,
 .about-home a{
     border: 3px solid #FFF;
