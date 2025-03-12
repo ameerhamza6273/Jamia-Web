@@ -286,6 +286,10 @@ html {
     border-radius: 26px;
     margin: 0 auto;
     display: block;
+    background: #fff;
+}
+.contact-section .contact-btn:hover{
+    background: #343a40;
 }
 /* footer style is here */
 .page-footer {
