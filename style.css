@@ -401,7 +401,7 @@ html {
         margin-top: 15px;
     }
     .navbar {
-        padding: 10px 20px 10px 10px;
+        padding: 1px 20px 1px 10px;
     }
     .navbar-light .navbar-nav .nav-link{
         margin-left: 15px;
@@ -430,5 +430,8 @@ html {
     .carousel-item:nth-child(1){
         background: linear-gradient(to right, rgba(12, 91, 86, 0.493), rgba(12, 91, 86, 0.521)), url(images/slide-img-3.png);
         background-position: top !important;
+    }
+    .navbar-img{
+        width: 100px;
     }
 }
