@@ -74,17 +74,17 @@ html {
 .carousel-item{
     /* background-color: aquamarine; */
     min-height: 550px;
-    padding: 130px 100px;
-    background: linear-gradient(to right, rgba(12, 91, 86, 0.507), rgba(12, 91, 86, 0.507)) center / cover, url(images/slide-img-2.webp);
+    padding: 130px 20px;
+    background: linear-gradient(to right, rgba(12, 91, 86, 0.507), rgba(12, 91, 86, 0.507)), url(images/slide-img-2.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
+    background-position: center;
     background-color: grey;
     background-blend-mode: multiply;
     text-align: center;
 }
 .carousel-item:nth-child(1){
-    background: linear-gradient(to right, rgba(12, 91, 86, 0.493), rgba(12, 91, 86, 0.521)) center / cover, url(images/slide-img-1.png);
+    background: linear-gradient(to right, rgba(12, 91, 86, 0.493), rgba(12, 91, 86, 0.521)), url(images/slide-img-1.png);
 }
 .carousel-item h1{
     font-size: 75px;
@@ -425,6 +425,10 @@ html {
 }
 @media screen and (max-width: 500px){
     .carousel-item{
-        padding: 120px 35px;
+        min-height: 450px !important;
+    }
+    .carousel-item:nth-child(1){
+        background: linear-gradient(to right, rgba(12, 91, 86, 0.493), rgba(12, 91, 86, 0.521)), url(images/slide-img-3.png);
+        background-position: top !important;
     }
 }
