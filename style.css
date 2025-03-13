@@ -122,7 +122,7 @@ html {
 }
 /* department style is here */
 .department{
-    padding: 70px 10px;
+    padding: 60px 10px;
     background-color: #f5f5f5;
 }
 .department .department-title{
@@ -174,8 +174,8 @@ html {
 
 /* about us style is here */
 .about-main{
-    min-height: 250px;
-    padding: 120px 10px;
+    min-height: 200px;
+    padding: 100px 10px;
     background: #0c5b56;
     background-blend-mode: multiply;
     text-align: center;
@@ -197,7 +197,7 @@ html {
     color: #FFF;
 }
 .about-home{
-    padding: 70px 10px !important;
+    padding: 60px 10px !important;
 }
 .small-title{
     font-family: 'Open Sans';
@@ -242,7 +242,7 @@ html {
 }
 /* event section style is here */
 .event{
-    padding: 70px 10px;
+    padding: 60px 10px;
     background-color: #f5f5f5;
 }
 .event .img-div{
@@ -433,5 +433,9 @@ html {
     }
     .navbar-img{
         width: 100px;
+    }
+    .about-main{
+        min-height: 150px;
+        padding: 70px 10px;
     }
 }
